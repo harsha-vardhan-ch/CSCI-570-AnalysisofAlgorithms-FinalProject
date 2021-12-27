@@ -1,13 +1,11 @@
 ﻿Contribution to the project:
 
 
-Akash Gujju ( USC ID - 1453841586 ) - Basic Sequence Alignment code, Memory and Time Graph plotting
+Member 1 - Basic Sequence Alignment code, Memory and Time Graph plotting
 
+Member 2 - Memory efficient sequence Alignment code, Testcases Generation, Testing
 
-Nikhil Nagarapu ( USC ID - 1022846313) - Memory efficient sequence Alignment code, Testcases Generation, Testing
-
-
-Harsha Vardhan Charagondla ( USC ID - 1444793835 ) - Utility String Generation Code, Memory efficient sequence alignment code, Report Preparation
+Member 3 - Utility String Generation Code, Memory efficient sequence alignment code, Report Preparation
 
 => Output format :
 
