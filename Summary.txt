@@ -1,0 +1,55 @@
+﻿Contribution to the project:
+
+
+Akash Gujju ( USC ID - 1453841586 ) - Basic Sequence Alignment code, Memory and Time Graph plotting
+
+
+Nikhil Nagarapu ( USC ID - 1022846313) - Memory efficient sequence Alignment code, Testcases Generation, Testing
+
+
+Harsha Vardhan Charagondla ( USC ID - 1444793835 ) - Utility String Generation Code, Memory efficient sequence alignment code, Report Preparation
+
+=> Output format :
+
+1st and 2nd line contains strings alignment
+3rd line contains minimum cost
+4th line contains time taken in seconds
+5th line contains memory in KB
+
+Observations and Insights from Results:
+
+
+* In the efficient version, we enhanced the sequence alignment algorithm such that to work in O(mn) time using only O(m + n)space. 
+
+
+* We brought down the space requirement to linear while blowing up the running time by at most an additional constant factor.
+
+
+* The memory taken by efficient algorithm is less compared to the basic algorithm
+
+
+* We have observed that, if we divide the problem into several recursive calls, then the space needed for the computation can be reused from one call to the next.
+
+
+* If we only care about the value of the optimal alignment, and not the alignment itself, it is easy to get away with linear space. 
+
+
+* The crucial observation is that to fill in an entry of the array A of the recurrence relation, it only needs information from the current column of A and the previous column of A. 
+
+
+Observations from the memory plotting of basic vs efficient alignment results:
+
+
+*  we observed that memory usage for the inputs of smaller size are almost equal for both the algorithms, but once the size O(m+n) increases the memory required for basic algorithms is increasing exponentially, whereas for the efficient alignment algorithm it is a very negligible increase in memory usage.
+
+
+* This is mainly due to only usage of 2 columns in the recurrence relation of efficient algorithm.
+
+
+Observations from the time plotting of basic vs efficient alignment results:
+
+
+* We observed that the time taken by the efficient alignment algorithm is comparatively greater than the basic alignment algorithm.
+
+
+* This is due to multiple divisions of the problem which can be ignored as it is only an increase in the constant factor.
